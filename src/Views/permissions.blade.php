@@ -7,7 +7,7 @@
     @endif
     <ul class="list">
         @foreach($permissions['permissions'] as $permission)
-        <li class="list__item list__item--permissions {{ $permission['isSet'] ? 'success' : 'error' }}">
+        <li class="list__item list__item--permissions {{ $permission['isSet'] ? 'success' : 'error' }}" style=" text-transform: lowercase;">
             {{ strtolower($permission['folder']) }}<span>{{ $permission['permission'] }}</span>
         </li>
         @endforeach
