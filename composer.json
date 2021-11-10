@@ -1,0 +1,19 @@
+{
+  "name": "examyou/lara-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Examyou\\LaravelInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
