@@ -4,7 +4,7 @@ namespace Examyou\LaravelInstaller\Request;
 
 
 
-class UpdateRequest extends CoreRequestƒ
+class UpdateRequest extends CoreRequest
 {
 	/**
 	 * Determine if the user is authorized to make this request.
