@@ -8,7 +8,7 @@
     <ul class="list">
         @foreach($permissions['permissions'] as $permission)
         <li class="list__item list__item--permissions {{ $permission['isSet'] ? 'success' : 'error' }}">
-            {{ $permission['folder'] }}<span>{{ $permission['permission'] }}</span>
+            {{ strtolower($permission['folder']) }}<span>{{ $permission['permission'] }}</span>
         </li>
         @endforeach
     </ul>
